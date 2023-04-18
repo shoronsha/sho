@@ -1,0 +1,106 @@
+
+
+*{
+margin: 0;
+padding: 0;
+
+
+}
+body{
+    
+  background: radial-gradient(rgba(0,0,0,0.1),#305347),
+   url(https://images.unsplash.com/photo-1587999633514-68d648a8df77?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGxpbW91c2luZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+ 
+  background-attachment: fixed;
+  background-size: cover ;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  
+  
+  
+  
+}
+  
+  .top-part{
+text-align: center;
+padding: 189px;
+color: rgb(233, 200, 177);
+
+}
+
+.top-part p{
+    margin: 5px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.top-part h2{
+font-size: 40px;
+   
+}
+
+#direction{
+  font-size: 25px;
+  color:rgb(255, 240, 252);
+  text-decoration:none ;
+  text-transform:uppercase;
+  box-shadow:10px 10px rgb(130, 95, 0);
+}
+#direction:hover{
+  color:rgb(175, 84, 24);
+}
+  
+
+
+.nav_bar{
+  background-color: rgb(130, 164, 170);
+  text-align: center;
+}
+
+.nav_bar ul {
+
+  display: inline-flex;
+  list-style: none;
+  color:rgb(207, 20, 20);
+  
+  
+}
+.nav_bar ul li {
+  width: 100px;
+  margin: 25px;
+  padding: 25px;
+  
+  
+  
+  
+
+}
+.nav_bar ul li a{
+  text-decoration: none;
+}
+.social-links li{
+  margin: 0;
+  padding: 0;
+  display:inline-flex;
+  font-size: 25px;
+  color: rgb(141, 95, 25);
+ 
+  text-decoration: none;
+  list-style: none;
+  
+}
+.social-links a{
+color: blanchedalmond;
+padding: 10px;
+}
+
+.outter{
+  text-align: center;
+  color: bisque;
+  background: cadetblue;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: auto;
+}
